@@ -34,3 +34,4 @@ The API exposes `GET /health` and `POST /predict`. The model artifact is
 addressed by its checksum in `model_metadata.json`; the API health response
 also reports the feature-default checksum. The Dockerfile pins the Python and
 uv image digests and installs from the checked-in lockfile.
+>>>>>>> 199a83d (Initial commit: Fresh start for ML deployment)
